@@ -9,12 +9,38 @@
     </head>
 
     <body>
-        <div id="login">
-        <form action="LoginServlet" method="post">
-            Username: <input type="text" name="username" /> <br />
-            Password: <input type="password" name="password" />
-        </form>
+        <div id="new">
+            <table>
+                <tr>
+                    <td>New Car</td>
+                    <td>New Car</td>
+                </tr>
+                <tr>
+                    <td>New Car</td>
+                    <td>New Car</td>
+                </tr>
+                <tr>
+                    <td>New Car</td>
+                    <td>New Car</td>
+                </tr>
+            </table>
         </div>
-        <a href="homepage.jsp">Test</a>
+        <div id="used">
+            <table>
+                <tr>
+                    <td>Used Car</td>
+                    <td>Used Car</td>
+                </tr>
+                <tr>
+                    <td>Used Car</td>
+                    <td>Used Car</td>
+                </tr>
+                <tr>
+                    <td>Used Car</td>
+                    <td>Used Car</td>
+                </tr>
+            </table>
+        </div>
+        <a href="login.jsp">Login</a>
     </body>
 </html>

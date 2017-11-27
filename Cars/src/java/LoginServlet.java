@@ -69,6 +69,11 @@ public class LoginServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        response.setContentType("text/html");
+        PrintWriter out = response.getWriter();
+        
+        String u = request.getParameter("username");
+        String p = request.getParameter("password");
         processRequest(request, response);
     }
 
